@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manam Sapnim - Ziedojumi</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Ja izmanto CSS failu -->
+</head>
+<body>
+    <header>
+        <h1>Atbalsti "Manam Sapnim" ar ziedojumu</h1>
+        <p>Izvēlies savu ziedojuma summu un veic maksājumu.</p>
+    </header>
+
+    <main>
+        <div class="donation-options">
+            <button id="donate-1-10">1–10 EUR</button>
+            <button id="donate-10-15">10–15 EUR</button>
+            <button id="donate-15-20">15–20 EUR</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Manam Sapnim</p>
+    </footer>
+
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
